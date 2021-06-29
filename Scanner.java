@@ -13,23 +13,13 @@ class Main {
     System.out.print("年齢：");
     int age = scanner.nextInt();
 
-    System.out.print("身長(m)：：");
+    System.out.print("身長(m)：");
     double heigh = scanner.nextDouble();
 
     System.out.print("体重(kg)：");
     double stmac = scanner.nextDouble();
 
-    System.out.println("名前は" + firstName + " "+ lastName + "です");
-
-    System.out.println("年齢は" + age + "歳です");
-    if ( age>=20 ){
-      System.out.println("成年者です");
-    } else {
-      System.out.println("未成年者です");
-    }
-
-    System.out.println("身長は" + heigh + "mです");
-    System.out.println("体重は" + stmac + "kgです");
+    Person.printData(firstName, lastName, age, height, weight);
 
   }
 }
