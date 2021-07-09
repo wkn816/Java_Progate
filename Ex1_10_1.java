@@ -17,7 +17,10 @@ class Ex1_10_1 {
 		**displayに格納する処理を書いてください。
 		**※必ずfor文を使用してください。
 		*/
-
+		for( int i = 0; i<receiveNumber ; i++){
+			display= display + "*";
+			
+		}
 
 
 
