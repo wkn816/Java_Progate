@@ -26,23 +26,15 @@ class Ex1_10_4 {
 		**       ブブ / ブルドッグ　 / 3歳 / メス
 		**       シロ / 秋田犬　　　 / 8歳 / オス
 		*/
-			
+			String display = "";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+			for( int i = 0; i<animals.length; i++){
+				display = "";
+					for ( int j = 0; j <  animals[i].length; j++){
+					display = display + animals[i][j] + "/";
+					}
+					System.out.println(display);
+			}
 
 	}
 }
