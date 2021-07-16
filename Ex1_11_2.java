@@ -6,15 +6,13 @@ do-while文を使用して、6の目がでるまでサイコロを降り続け�
 ----------------------------------------------------*/
 class Ex1_11_2 {
 	public static void main (String[] args) {
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
+ int diceNumber = 0;
+
+do{
+			diceNumber =1 + (int)(Math.random() * 6.0);
+			System.out.println(diceNumber);
+}while( diceNumber != 6);
+		System.out.println("6が出たのでを終了します");
 	}
 }
